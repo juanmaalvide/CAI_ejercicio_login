@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|c:\\users\\juanm\\onedrive\\documentos\\github\\cai_ejercicio_login\\cai_ejericico_login\\cai_ejericico_login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|solutionrelative:cai_ejericico_login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|c:\\users\\juanm\\onedrive\\documentos\\github\\cai_ejercicio_login\\cai_ejericico_login\\cai_ejericico_login\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|solutionrelative:cai_ejericico_login\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|c:\\users\\juanm\\onedrive\\documentos\\github\\cai_ejercicio_login\\cai_ejericico_login\\cai_ejericico_login\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|solutionrelative:cai_ejericico_login\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|c:\\users\\juanm\\onedrive\\documentos\\github\\cai_ejercicio_login\\cai_ejericico_login\\cai_ejericico_login\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|solutionrelative:cai_ejericico_login\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|c:\\users\\juanm\\onedrive\\documentos\\github\\cai_ejercicio_login\\cai_ejericico_login\\cai_ejericico_login\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|solutionrelative:cai_ejericico_login\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|c:\\users\\juanm\\onedrive\\documentos\\github\\cai_ejercicio_login\\cai_ejericico_login\\cai_ejericico_login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{85672FC7-5F70-42F9-ACD0-FAF9426E2264}|CAI_ejericico_login\\CAI_ejericico_login.csproj|solutionrelative:cai_ejericico_login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,11 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormMenu.cs",
+              "RelativeDocumentMoniker": "CAI_ejericico_login\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormMenu.cs",
+              "RelativeToolTip": "CAI_ejericico_login\\FormMenu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T22:09:00.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormEmpleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormEmpleados.cs",
+              "RelativeDocumentMoniker": "CAI_ejericico_login\\FormEmpleados.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormEmpleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CAI_ejericico_login\\FormEmpleados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T22:06:10.738Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAlumnos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormAlumnos.cs",
+              "RelativeDocumentMoniker": "CAI_ejericico_login\\FormAlumnos.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormAlumnos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CAI_ejericico_login\\FormAlumnos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T22:06:01.369Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormMenu.cs",
+              "RelativeDocumentMoniker": "CAI_ejericico_login\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\FormMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CAI_ejericico_login\\FormMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T22:05:43.534Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\Form1.cs",
+              "RelativeDocumentMoniker": "CAI_ejericico_login\\Form1.cs",
+              "ToolTip": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\Form1.cs",
+              "RelativeToolTip": "CAI_ejericico_login\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T21:01:49.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanm\\OneDrive\\Documentos\\GitHub\\CAI_ejercicio_login\\CAI_ejericico_login\\CAI_ejericico_login\\Form1.cs",
               "RelativeDocumentMoniker": "CAI_ejericico_login\\Form1.cs",

@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace CAI_ejericico_login
 {
-    public partial class Form1 : Form
+    public partial class formLogin : Form
     {
-        public Form1()
+        public formLogin()
         {
             InitializeComponent();
+        }
+        // Agregar el método formLogin_Load en el archivo Form1.cs
+        private void formLogin_Load(object sender, EventArgs e)
+        {
+            // Código que se ejecutará cuando el formulario se cargue
+            InitializeComponent();
+        }
+
+        private void btnIniciarSes_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
