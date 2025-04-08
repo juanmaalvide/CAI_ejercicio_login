@@ -30,7 +30,7 @@
         {
             this.lblLegajo = new System.Windows.Forms.Label();
             this.lblFechaingr = new System.Windows.Forms.Label();
-            this.Listar = new System.Windows.Forms.ListBox();
+            this.lstEmpleados = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lblLegajo
@@ -51,22 +51,22 @@
             this.lblFechaingr.TabIndex = 1;
             this.lblFechaingr.Text = "Fecha Ingreso";
             // 
-            // Listar
+            // lstEmpleados
             // 
-            this.Listar.FormattingEnabled = true;
-            this.Listar.ItemHeight = 20;
-            this.Listar.Location = new System.Drawing.Point(42, 140);
-            this.Listar.Name = "Listar";
-            this.Listar.Size = new System.Drawing.Size(106, 24);
-            this.Listar.TabIndex = 2;
-            this.Listar.Tag = "";
+            this.lstEmpleados.FormattingEnabled = true;
+            this.lstEmpleados.ItemHeight = 20;
+            this.lstEmpleados.Location = new System.Drawing.Point(42, 140);
+            this.lstEmpleados.Name = "lstEmpleados";
+            this.lstEmpleados.Size = new System.Drawing.Size(106, 24);
+            this.lstEmpleados.TabIndex = 2;
+            this.lstEmpleados.Tag = "";
             // 
             // FormEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Listar);
+            this.Controls.Add(this.lstEmpleados);
             this.Controls.Add(this.lblFechaingr);
             this.Controls.Add(this.lblLegajo);
             this.Name = "FormEmpleados";
@@ -80,6 +80,6 @@
 
         private System.Windows.Forms.Label lblLegajo;
         private System.Windows.Forms.Label lblFechaingr;
-        private System.Windows.Forms.ListBox Listar;
+        private System.Windows.Forms.ListBox lstEmpleados;
     }
 }

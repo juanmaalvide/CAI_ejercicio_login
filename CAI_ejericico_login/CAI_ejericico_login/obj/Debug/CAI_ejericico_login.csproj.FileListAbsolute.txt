@@ -1,0 +1,13 @@
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\bin\Debug\CAI_ejericico_login.exe.config
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\bin\Debug\CAI_ejericico_login.exe
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\bin\Debug\CAI_ejericico_login.pdb
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.csproj.AssemblyReference.cache
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.formLogin.resources
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.FormAlumnos.resources
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.FormEmpleados.resources
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.FormMenu.resources
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.Properties.Resources.resources
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.csproj.GenerateResource.cache
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.csproj.CoreCompileInputs.cache
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.exe
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.pdb

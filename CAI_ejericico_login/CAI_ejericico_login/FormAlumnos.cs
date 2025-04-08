@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CAI_ejericico_login.Entidades;
+using CAI_ejericico_login.Persistencia;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,18 @@ namespace CAI_ejericico_login
         public FormAlumnos()
         {
             InitializeComponent();
+        }
+               
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
+            List<String> listado = persistenciaUtils.LeerRegistro("alumnos.csv");
+
+            foreach (String registro in listado)
+            {
+                Alumno alumno = new Alumno(registro);
+                lstAlumnos.Items.Add(alumno);
+            }
         }
     }
 }

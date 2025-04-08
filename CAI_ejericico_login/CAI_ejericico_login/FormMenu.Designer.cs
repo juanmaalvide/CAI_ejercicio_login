@@ -1,4 +1,6 @@
-﻿namespace CAI_ejericico_login
+﻿using System;
+
+namespace CAI_ejericico_login
 {
     partial class FormMenu
     {
@@ -61,8 +63,14 @@
             this.Controls.Add(this.btnAlumnos);
             this.Name = "FormMenu";
             this.Text = "FormMenu";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.ResumeLayout(false);
 
+        }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+            InitializeComponent();
         }
 
         #endregion
