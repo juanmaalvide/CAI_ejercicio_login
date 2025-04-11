@@ -30,6 +30,7 @@ namespace CAI_ejericico_login
             FormEmpleados formEmpleados = new FormEmpleados();
             formEmpleados.ShowDialog();
         }
-               
+
+
     }
 }

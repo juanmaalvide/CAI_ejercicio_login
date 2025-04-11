@@ -33,6 +33,13 @@ namespace CAI_ejericico_login
             this.lblCodigo = new System.Windows.Forms.Label();
             this.lstAlumnos = new System.Windows.Forms.ListBox();
             this.btnListar = new System.Windows.Forms.Button();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblApellido = new System.Windows.Forms.Label();
+            this.lblFechaNac = new System.Windows.Forms.Label();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblCodigo
@@ -48,10 +55,11 @@ namespace CAI_ejericico_login
             // 
             this.lstAlumnos.FormattingEnabled = true;
             this.lstAlumnos.ItemHeight = 20;
-            this.lstAlumnos.Location = new System.Drawing.Point(44, 123);
+            this.lstAlumnos.Location = new System.Drawing.Point(42, 188);
             this.lstAlumnos.Name = "lstAlumnos";
             this.lstAlumnos.Size = new System.Drawing.Size(120, 24);
-            this.lstAlumnos.TabIndex = 1;            
+            this.lstAlumnos.TabIndex = 1;
+           
             // 
             // btnListar
             // 
@@ -63,11 +71,73 @@ namespace CAI_ejericico_login
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(40, 80);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(65, 20);
+            this.lblNombre.TabIndex = 3;
+            this.lblNombre.Text = "Nombre";
+            // 
+            // lblApellido
+            // 
+            this.lblApellido.AutoSize = true;
+            this.lblApellido.Location = new System.Drawing.Point(38, 110);
+            this.lblApellido.Name = "lblApellido";
+            this.lblApellido.Size = new System.Drawing.Size(65, 20);
+            this.lblApellido.TabIndex = 4;
+            this.lblApellido.Text = "Apellido";
+            // 
+            // lblFechaNac
+            // 
+            this.lblFechaNac.AutoSize = true;
+            this.lblFechaNac.Location = new System.Drawing.Point(38, 140);
+            this.lblFechaNac.Name = "lblFechaNac";
+            this.lblFechaNac.Size = new System.Drawing.Size(137, 20);
+            this.lblFechaNac.TabIndex = 5;
+            this.lblFechaNac.Text = "Fecha Nacimiento";
+            // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(202, 135);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(160, 26);
+            this.dtpFechaNacimiento.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(202, 44);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(152, 26);
+            this.textBox1.TabIndex = 7;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(202, 75);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(152, 26);
+            this.txtNombre.TabIndex = 8;
+            // 
+            // txtApellido
+            // 
+            this.txtApellido.Location = new System.Drawing.Point(202, 104);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(152, 26);
+            this.txtApellido.TabIndex = 9;
+            // 
             // FormAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtApellido);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dtpFechaNacimiento);
+            this.Controls.Add(this.lblFechaNac);
+            this.Controls.Add(this.lblApellido);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.lstAlumnos);
             this.Controls.Add(this.lblCodigo);
@@ -89,5 +159,12 @@ namespace CAI_ejericico_login
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.ListBox lstAlumnos;
         private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblApellido;
+        private System.Windows.Forms.Label lblFechaNac;
+        private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtApellido;
     }
 }

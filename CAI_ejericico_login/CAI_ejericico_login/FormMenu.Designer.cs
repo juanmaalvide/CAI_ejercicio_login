@@ -62,15 +62,9 @@ namespace CAI_ejericico_login
             this.Controls.Add(this.btnEmpleados);
             this.Controls.Add(this.btnAlumnos);
             this.Name = "FormMenu";
-            this.Text = "FormMenu";
-            this.Load += new System.EventHandler(this.FormMenu_Load);
+            this.Text = "FormMenu";            
             this.ResumeLayout(false);
 
-        }
-
-        private void FormMenu_Load(object sender, EventArgs e)
-        {
-            InitializeComponent();
         }
 
         #endregion

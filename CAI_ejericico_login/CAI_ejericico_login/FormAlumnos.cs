@@ -30,5 +30,8 @@ namespace CAI_ejericico_login
                 lstAlumnos.Items.Add(alumno);
             }
         }
+
+        //Me falta un metodo
+
     }
 }

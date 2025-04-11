@@ -70,7 +70,7 @@
             this.Controls.Add(this.lblFechaingr);
             this.Controls.Add(this.lblLegajo);
             this.Name = "FormEmpleados";
-            this.Text = "FormEmpleados";
+            this.Text = "FormEmpleados";     
             this.ResumeLayout(false);
             this.PerformLayout();
 

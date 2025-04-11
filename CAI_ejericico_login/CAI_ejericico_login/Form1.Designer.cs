@@ -99,8 +99,7 @@
             this.Controls.Add(this.lblContra);
             this.Controls.Add(this.lblUsua);
             this.Name = "formLogin";
-            this.Text = "Login";
-            this.Load += new System.EventHandler(this.formLogin_Load);
+            this.Text = "Login";            
             this.ResumeLayout(false);
             this.PerformLayout();
 
