@@ -126,7 +126,7 @@ namespace CAI_ejericico_login
         private List<Credencial> obtenerCredenciales()
         {
             List<String> listado = persistenciaUtils.LeerRegistro("credenciales.csv");
-            List<Credencial> listadoCredenciales = new List<Credencial>();
+            List <Credencial> listadoCredenciales = new List<Credencial>();
 
             foreach (String registro in listado)
             {

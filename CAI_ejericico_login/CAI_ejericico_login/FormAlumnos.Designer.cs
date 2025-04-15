@@ -40,12 +40,13 @@ namespace CAI_ejericico_login
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(38, 50);
+            this.lblCodigo.Location = new System.Drawing.Point(38, 46);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(59, 20);
             this.lblCodigo.TabIndex = 0;
@@ -57,15 +58,14 @@ namespace CAI_ejericico_login
             this.lstAlumnos.ItemHeight = 20;
             this.lstAlumnos.Location = new System.Drawing.Point(42, 188);
             this.lstAlumnos.Name = "lstAlumnos";
-            this.lstAlumnos.Size = new System.Drawing.Size(120, 24);
+            this.lstAlumnos.Size = new System.Drawing.Size(144, 44);
             this.lstAlumnos.TabIndex = 1;
-           
             // 
             // btnListar
             // 
-            this.btnListar.Location = new System.Drawing.Point(244, 236);
+            this.btnListar.Location = new System.Drawing.Point(244, 252);
             this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(118, 25);
+            this.btnListar.Size = new System.Drawing.Size(118, 40);
             this.btnListar.TabIndex = 2;
             this.btnListar.Text = "Listar";
             this.btnListar.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@ namespace CAI_ejericico_login
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(40, 80);
+            this.lblNombre.Location = new System.Drawing.Point(38, 78);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(65, 20);
             this.lblNombre.TabIndex = 3;
@@ -83,7 +83,7 @@ namespace CAI_ejericico_login
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(38, 110);
+            this.lblApellido.Location = new System.Drawing.Point(38, 111);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(65, 20);
             this.lblApellido.TabIndex = 4;
@@ -92,7 +92,7 @@ namespace CAI_ejericico_login
             // lblFechaNac
             // 
             this.lblFechaNac.AutoSize = true;
-            this.lblFechaNac.Location = new System.Drawing.Point(38, 140);
+            this.lblFechaNac.Location = new System.Drawing.Point(38, 145);
             this.lblFechaNac.Name = "lblFechaNac";
             this.lblFechaNac.Size = new System.Drawing.Size(137, 20);
             this.lblFechaNac.TabIndex = 5;
@@ -100,14 +100,14 @@ namespace CAI_ejericico_login
             // 
             // dtpFechaNacimiento
             // 
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(202, 135);
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(202, 140);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             this.dtpFechaNacimiento.Size = new System.Drawing.Size(160, 26);
             this.dtpFechaNacimiento.TabIndex = 6;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(202, 44);
+            this.textBox1.Location = new System.Drawing.Point(202, 43);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(152, 26);
             this.textBox1.TabIndex = 7;
@@ -121,16 +121,27 @@ namespace CAI_ejericico_login
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(202, 104);
+            this.txtApellido.Location = new System.Drawing.Point(202, 108);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(152, 26);
             this.txtApellido.TabIndex = 9;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(100, 252);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(124, 40);
+            this.btnModificar.TabIndex = 10;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // FormAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.textBox1);
@@ -151,7 +162,7 @@ namespace CAI_ejericico_login
 
         private void FormAlumnos_Load(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            InitializeComponent();
         }
 
         #endregion
@@ -166,5 +177,6 @@ namespace CAI_ejericico_login
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.Button btnModificar;
     }
 }

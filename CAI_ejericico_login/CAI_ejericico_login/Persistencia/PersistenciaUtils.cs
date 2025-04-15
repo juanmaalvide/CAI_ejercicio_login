@@ -9,12 +9,12 @@ namespace CAI_ejericico_login.Persistencia
 {
     public class PersistenciaUtils
     {
-        string archivoCsv = @"C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\Datos\";
+        string archivoCsv = @"C:\Users\juanm\OneDrive\Datos adjuntos\Compu nueva\JuanManuel\juanma todo\UBA\5° Quinto año\CAI\Visual Studio" ;
         public List<String> LeerRegistro(String nombreArchivo)
         {
-            archivoCsv = archivoCsv + nombreArchivo; // Cambia esta ruta al archivo CSV que deseas leer
-
-            String rutaArchivo = Path.GetFullPath(archivoCsv); // Normaliza la ruta
+            string archivoCsv = @"C:\Users\juanm\OneDrive\Datos adjuntos\Compu nueva\JuanManuel\juanma todo\UBA\5° Quinto año\CAI\Visual Studio"; // Cambia esta ruta al archivo CSV que deseas leer
+            string rutaArchivo = Path.Combine(archivoCsv, nombreArchivo);
+             // Normaliza la ruta
 
             List<String> listado = new List<String>();
 
@@ -22,9 +22,9 @@ namespace CAI_ejericico_login.Persistencia
             {
                 using (StreamReader sr = new StreamReader(rutaArchivo))
                 {
-                    string linea;
+                    string linea;                    
                     while ((linea = sr.ReadLine()) != null)
-                    {
+                    {                       
                         listado.Add(linea);
                     }
                 }

@@ -31,7 +31,16 @@ namespace CAI_ejericico_login
             }
         }
 
-        //Me falta un metodo
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            var itemSeleccionado = lstAlumnos.SelectedItems;
+            Alumno alumno = (Alumno)itemSeleccionado[0];
 
+            txtNombre.Text = alumno.Nombre;
+            txtApellido.Text = alumno.Apellido;
+            dtpFechaNacimiento.Value = alumno.FechaNac;
+        }
+
+        
     }
 }
