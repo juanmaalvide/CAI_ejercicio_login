@@ -32,6 +32,7 @@ namespace CAI_ejericico_login
         {
             this.btnAlumnos = new System.Windows.Forms.Button();
             this.btnEmpleados = new System.Windows.Forms.Button();
+            this.btnReporte = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAlumnos
@@ -54,15 +55,26 @@ namespace CAI_ejericico_login
             this.btnEmpleados.UseVisualStyleBackColor = true;
             this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
+            // btnReporte
+            // 
+            this.btnReporte.Location = new System.Drawing.Point(265, 130);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(198, 35);
+            this.btnReporte.TabIndex = 2;
+            this.btnReporte.Text = "Reporte";
+            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReporte);
             this.Controls.Add(this.btnEmpleados);
             this.Controls.Add(this.btnAlumnos);
             this.Name = "FormMenu";
-            this.Text = "FormMenu";            
+            this.Text = "FormMenu";
             this.ResumeLayout(false);
 
         }
@@ -71,5 +83,6 @@ namespace CAI_ejericico_login
 
         private System.Windows.Forms.Button btnAlumnos;
         private System.Windows.Forms.Button btnEmpleados;
+        private System.Windows.Forms.Button btnReporte;
     }
 }
