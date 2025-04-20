@@ -11,3 +11,4 @@ C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_logi
 C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.csproj.CoreCompileInputs.cache
 C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.exe
 C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.pdb
+C:\Users\juanm\OneDrive\Documentos\GitHub\CAI_ejercicio_login\CAI_ejericico_login\CAI_ejericico_login\obj\Debug\CAI_ejericico_login.FormReportes.resources
