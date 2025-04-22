@@ -41,6 +41,11 @@ namespace CAI_ejericico_login
             dtpFechaNacimiento.Value = alumno.FechaNac;
         }
 
-        
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormReportes formReportes = new FormReportes();
+            formReportes.ShowDialog();
+        }
     }
 }
